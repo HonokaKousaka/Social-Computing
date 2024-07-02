@@ -38,6 +38,7 @@ If you still cannot run the code, please try changing the version of these packa
 We select some important files for detailed description.
 
 ```python
+|-- blog-Id                             # for getting blog ids to crawl the comments under them
 |-- CORGI-PM							# for bias detection
     |-- dataset
     	|-- bias_sentence.npy			# biased sentences from Weibo
