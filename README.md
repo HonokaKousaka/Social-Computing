@@ -39,25 +39,25 @@ We select some important files for detailed description.
 
 ```python
 |-- blog-Id                             # for getting blog ids to crawl the comments under them
-|-- CORGI-PM							# for bias detection
+|-- CORGI-PM                            # for bias detection
     |-- dataset
-    	|-- bias_sentence.npy			# biased sentences from Weibo
+    	|-- bias_sentence.npy           # biased sentences from Weibo
         |-- CORGI-PC_splitted_biased_corpus_v1.npy
         |-- CORGI-PC_splitted_non-bias_corpus_v1.npy
-        |-- unbias_sentence.npy			# unbiased sentences from Weibo
+        |-- unbias_sentence.npy         # unbiased sentences from Weibo
     |-- src
-    	|-- run_classification.py		# bias detection code
-|-- emotion.ipynb						# sentiment analysis
-|-- k_means.ipynb						# embedding clustering
-|-- test_making.ipynb					# for generating real dataset for bias detection
-|-- wordcloud.ipynb						# word cloud
-|-- bert_dnn_8.model					# BERT based on Weibo data
-|-- comment_20240626225604.jsonl		# crawled Weibo comments
-|-- filtered_tweets_sorted_copy.jsonl	# crawled Weibo posts
-|-- numpy_list.npy						# embedding vectors of Weibo comments
-|-- requirements.txt					# dependencies
-|-- LazyCSS社会计算期末项目报告.pdf		  # report
-|-- Oral Defence.pptx					# slides for oral defence
+    	|-- run_classification.py       # bias detection code
+|-- emotion.ipynb                       # sentiment analysis
+|-- k_means.ipynb                       # embedding clustering
+|-- test_making.ipynb                   # for generating real dataset for bias detection
+|-- wordcloud.ipynb                     # word cloud
+|-- bert_dnn_8.model                    # BERT based on Weibo data
+|-- comment_20240626225604.jsonl        # crawled Weibo comments
+|-- filtered_tweets_sorted_copy.jsonl   # crawled Weibo posts
+|-- numpy_list.npy                      # embedding vectors of Weibo comments
+|-- requirements.txt                    # dependencies
+|-- LazyCSS社会计算期末项目报告.pdf      # report
+|-- Oral Defence.pptx                   # slides for oral defence
 ```
 
 
