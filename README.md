@@ -57,7 +57,6 @@ We select some important files for detailed description.
 |-- filtered_tweets_sorted_copy.jsonl   # crawled Weibo posts
 |-- numpy_list.npy                      # embedding vectors of Weibo comments
 |-- requirements.txt                    # dependencies
-|-- LazyCSS社会计算期末项目报告.pdf      # report
 |-- Oral Defence.pptx                   # slides for oral defence
 ```
 
